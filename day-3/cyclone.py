@@ -5,7 +5,7 @@
 #Else if they are tall enough, but they don't have enough credits, print "You don't have enough credits."
 #Else, print a message saying they have not met either requirement.
 
-  height = int(input("what's your height is : "))
+height = int(input("what's your height is : "))
 credits =int(input("how many credits your have : "))
 
 if height>137 and credits>10 :
