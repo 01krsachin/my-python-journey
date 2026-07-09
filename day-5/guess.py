@@ -1,5 +1,10 @@
 guess = 0 
-while guess != 6:
+tries = 0 
+while guess != 6 and tries < 5:
   guess = int(input("guess the number (0-10): "))
+  tries =tries + 1 
 
-print("you got it!")
+if guess != 6:
+  print('Bettar luck next time.')
+else:
+  print('You got it!
